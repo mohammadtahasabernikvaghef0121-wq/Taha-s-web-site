@@ -1,0 +1,36 @@
+html {
+  font-family: cursive;
+  background-color: #b7b7b7;
+}
+a{
+    text-decoration: none;
+}
+.container {
+   
+  margin-left: 15rem;
+  margin-right: 10rem;
+}
+
+.header-title {
+    background-color: #fff;
+  padding-left: 5rem;
+  margin-top: 5rem;
+}
+.button-header{
+    margin-left: 0rem;
+    background-color: #ffe100;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+
+}
+.social{
+font-family: cursive;
+font-size: 1rem;
+color: black;
+}
+.img-head{
+margin-left: 50rem;
+
+}
