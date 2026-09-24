@@ -11,8 +11,8 @@ body {
 
 html {
   font-family: cursive;
-  background-color: #b7b7b7;
-  font-size: 1rem;
+  background-color: #ffe100;
+  font-size: 0.85rem;
 }
 
 a {
@@ -24,130 +24,225 @@ li {
   list-style: none;
 }
 
+/* موبایل: استایل پایه */
 .container {
-  padding-left: 10rem;
-  margin-left: -2rem;
+  margin: 0 1rem;
+  padding: 5rem 1rem 1rem;
+  background-color: #b7b7b7;
 }
 
 .header-title {
+  position: relative;
+  margin: 3.5rem 0 1rem;
+  padding: 1rem 1.5rem 2rem;
+  border-radius: 3px;
   background-color: #fff;
-  padding-left: 5rem;
-  margin-top: 5rem;
-  padding-bottom: 2rem;
-  margin-left: -8rem;
 }
 
+.header-img {
+  display: none;
+}
+.header-img2{
+  position: absolute;
+  left: 40rem;
+  margin-top: 4rem;
+  display: block;
+}
+
+
 .button-header {
-  margin-left: 0rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
   background-color: #ffe100;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .social {
   font-family: cursive;
   font-size: 1rem;
-  color: black;
+  color: #000;
 }
 
 .sidebar {
-  width: 250px;
-  height: 100vh;
-  background-color: #fff;
-  color: black;
-  padding: 20px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: center;
-  display: block;
+  display: none;
 }
 
 .services {
+  margin: 0;
   text-align: center;
-  margin-right: 5rem;
 }
 
 .services-box {
-  font-size: 1rem;
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr !important;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
   width: 100%;
-  box-sizing: border-box;
-  margin-left: -4rem;
+  margin: 0;
+  padding: 0 1rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 .navbar {
-  position: fixed !important;
-  top: 15px !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  z-index: 9999 !important;
-  display: flex !important;
-  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+  top: 15px;
+  left: 50%;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  width: max-content;
+  max-width: calc(100% - 1rem);
+  padding: 0.8rem 1rem;
+  transform: translateX(-50%);
+  border-radius: 10rem;
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
-  border-radius: 10rem;
-  padding: 0.8rem 2.5rem;
-  width: max-content;
 }
 
 .navbar ul {
-  display: flex !important;
-  flex-direction: row !important;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
 
 .navbar li {
-  white-space: nowrap !important;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 .card {
-  padding-left: 1rem;
-  height: 30vh;
+  position: relative;
   width: 100%;
-  margin-right: 7rem;
+  min-height: 14rem;
+  margin: 0;
+  padding: 1.5rem;
   border-radius: 8px;
-  background-color: white;
-  padding-bottom: 2rem;
-  margin-left: 4rem;
-  padding-top: 0;
+  background-color: #fff;
+  text-align: center;
 }
 
 .card img {
-  margin-left: 13rem;
-  width: 70px;
-  height: 70px;
-  object-fit: contain;
   display: block;
-  padding-top: 0;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 1rem;
+  object-fit: contain;
 }
 
+
 @media (min-width: 768px) {
-  .sidebar {
-    width: 250px;
-    height: 100vh;
-    background-color: #fff;
-    color: black;
-    padding: 20px;
-    position: fixed;
+  html {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    margin: 0 1.5rem;
+    padding: 5rem 1.5rem 1.5rem;
+  }
+
+  .services-box {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .navbar {
+    padding: 0.8rem 1.5rem;
+  }
+
+  .navbar ul {
+    gap: 1.5rem;
+  }
+}
+
+
+@media (min-width: 998px) {
+  .container {
+    margin: 0 2rem;
+    padding: 5rem 2rem 2rem;
+  }
+
+  .header-title {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 3rem;
     top: 0;
-    left: 0;
+  }
+
+
+  .header-img {
+    position: absolute;
+    left: 37rem;
+    margin-top: -1rem;
+    display: block;
+  }
+  .header-img2{
     display: none;
   }
   .services-box {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
   }
-  .header-title {
+
+  .card {
+    min-height: 16rem;
+  }
+}
+
+
+@media (min-width: 1250px) {
+  .sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
     background-color: #fff;
+    color: #000;
+    text-align: center;
+  }
+
+  .container {
+    margin: 0 3.5rem;
+    padding: 5rem 3rem 2rem 15rem;
+  }
+
+  .header-title {
+    margin: 3.5rem 8rem 1rem -8rem;
+    padding: 1rem 0 2rem 5rem;
+  }
+
+  .header-img {
+    position: absolute;
+    top: 3rem;
+    left: 40rem;
+    display: block;
+  }
+
+  .header-img2 {
+    display: none;
+  }
+
+  .services-box {
+    margin-left: -4rem;
+    gap: 30px;
+  }
+
+  .card {
+    min-height: 16rem;
+    padding: 1rem;
+    border-radius: 3px;
+  }
+
+  .card img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 1rem;
+    padding-top: 0;
   }
 }
