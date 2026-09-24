@@ -1,11 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 html {
   font-family: cursive;
   background-color: #b7b7b7;
   font-size: 1rem;
 }
+
 a {
   text-decoration: none;
+  color: #fff;
 }
+
+li {
+  list-style: none;
+}
+
 .container {
   padding-left: 10rem;
   margin-left: -2rem;
@@ -18,6 +36,7 @@ a {
   padding-bottom: 2rem;
   margin-left: -8rem;
 }
+
 .button-header {
   margin-left: 0rem;
   background-color: #ffe100;
@@ -26,11 +45,13 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
 .social {
   font-family: cursive;
   font-size: 1rem;
   color: black;
 }
+
 .sidebar {
   width: 250px;
   height: 100vh;
@@ -43,10 +64,12 @@ a {
   text-align: center;
   display: block;
 }
+
 .services {
   text-align: center;
   margin-right: 5rem;
 }
+
 .services-box {
   font-size: 1rem;
   display: grid !important;
@@ -57,22 +80,58 @@ a {
   margin-left: -4rem;
   text-align: center;
 }
+
+.navbar {
+  position: fixed !important;
+  top: 15px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 9999 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border-radius: 10rem;
+  padding: 0.8rem 2.5rem;
+  width: max-content;
+}
+
+.navbar ul {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  white-space: nowrap !important;
+  font-size: 1rem;
+}
+
 .card {
   padding-left: 1rem;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
-  margin-right: 10rem;
+  margin-right: 7rem;
   border-radius: 8px;
   background-color: white;
   padding-bottom: 2rem;
+  margin-left: 4rem;
+  padding-top: 0;
 }
+
 .card img {
   margin-left: 13rem;
   width: 70px;
   height: 70px;
   object-fit: contain;
   display: block;
+  padding-top: 0;
 }
+
 @media (min-width: 768px) {
   .sidebar {
     width: 250px;
@@ -83,7 +142,6 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-
     display: none;
   }
   .services-box {
