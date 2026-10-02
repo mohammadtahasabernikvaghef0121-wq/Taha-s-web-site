@@ -301,7 +301,7 @@ li {
 
 .flash {
 display: flex;
-padding-top: 5rem;
+padding-top: 3rem;
 padding-left: 80rem;
 }
 
@@ -328,21 +328,105 @@ padding-left: 80rem;
 }
 
 .price-plan {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
+/* Rectangle 58 */
 
+position: absolute;
+width: 310px;
+height: 609px;
+left: 12rem;
+top: 1512px;
+margin-top: -17rem;
+
+
+}
+.silver{
+text-align: center;
+vertical-align: middle;
+position: absolute;
+width: 310px;
+height: 609px;
+left: 3.5rem;
+top: 1512px;
+margin-top: -105rem;
+/* White */
+background: #FFFFFF;
+
+
+}
+.title-silver{
+  color: #767676;
+}
+.silver h2 h1 h3 h4 h5 h6{
+  font-size: 1rem;
+}
+.silver img{
+  top: 0.5rem;
+}
+.Hour{
+  font-size: .9rem;
+  
+}
+.check{
+padding-right: 1rem;
+display: inline-block;
+vertical-align: middle;
+
+}
+.popular{
+ margin-top: -1rem;
+  background-color: #ffb400;
+  padding:  0.5rem 0;
+  font-weight: 400;
+}
+.gold{
+  text-align: center;
+   /* Rectangle 58 */
+
+position: absolute;
+width: 310px;
+height: 609px;
+left: 30.5rem;
+top: 1512px;
+margin-top: -104rem;
+/* White */
+background: #FFFFFF; 
+}
+.h2-gold{
+  margin-top: -2.5rem;
+}
+.yellow-btn{
+  background-color: #ffb400;
+border-radius: 20px;
+height: 35px;
+width: 10rem;
+font-weight: 600;
+}
+.white-btn2{
+ background-color: white;
+  border-radius: 20px;
+height: 35px;
+width: 10rem;
+font-weight: 600;
+}
 .comments-title {
   text-align: center;
   font-size: 0.85rem;
   margin: 3rem auto 1rem;
   max-width: 1140px;
   padding: 0 1.5rem;
+}
+.dimond{
+  text-align: center;
+  /* Rectangle 58 */
+
+position: absolute;
+width: 310px;
+height: 609px;
+left: 69.5rem;
+top: 1512px;
+margin-top: -16.5rem;
+/* White */
+background: #FFFFFF; 
 }
 
 .comments-title h3 {
@@ -501,25 +585,9 @@ padding-left: 80rem;
     padding: 2.25rem 1.5rem;
   }
 
-  .price-plan,
-  .comments,
-  .blog-items,
-  .info-images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-  }
 
-  .price-plan img,
-  .comments img,
-  .Education img,
-  .work-history img,
-  .portfolio img,
-  .blog-items img,
-  .info-images img {
-    max-width: 100%;
-    width: 100%;
-  }
+
+  
 
   .Figma,
   .Figma1,
@@ -648,4 +716,9 @@ padding-left: 80rem;
 }
 .highlight{
   color: #ffb400;
+}
+.flash {
+  position: absolute;
+  right: 23.5rem;
+  margin-top: -9.4rem;
 }
