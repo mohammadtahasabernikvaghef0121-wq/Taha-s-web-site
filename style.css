@@ -243,13 +243,11 @@ li {
   padding: 2rem 15rem;
 }
 
-
 .card {
   position: relative;
   width: 100%;
   min-height: 8rem;
   margin: 0;
-
   background-color: #fff;
   text-align: center;
   display: flex;
@@ -300,9 +298,9 @@ li {
 }
 
 .flash {
-display: flex;
-padding-top: 3rem;
-padding-left: 80rem;
+  display: flex;
+  padding-top: 3rem;
+  padding-left: 80rem;
 }
 
 .price-title {
@@ -328,105 +326,112 @@ padding-left: 80rem;
 }
 
 .price-plan {
-/* Rectangle 58 */
-
-position: absolute;
-width: 310px;
-height: 609px;
-left: 12rem;
-top: 1512px;
-margin-top: -17rem;
-
-
+  position: absolute;
+  width: 310px;
+  height: 609px;
+  left: 12rem;
+  top: 1512px;
+  margin-top: -17rem;
 }
-.silver{
-text-align: center;
-vertical-align: middle;
-position: absolute;
-width: 310px;
-height: 609px;
-left: 3.5rem;
-top: 1512px;
-margin-top: -105rem;
-/* White */
-background: #FFFFFF;
 
-
+.silver {
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  width: 310px;
+  height: 609px;
+  left: 3.5rem;
+  top: 1512px;
+  margin-top: -105rem;
+  background: #ffffff;
 }
-.title-silver{
+
+.title-silver {
   color: #767676;
 }
-.silver h2 h1 h3 h4 h5 h6{
+
+.silver h2 h1 h3 h4 h5 h6 {
   font-size: 1rem;
 }
-.silver img{
+
+.silver img {
   top: 0.5rem;
 }
-.Hour{
-  font-size: .9rem;
-  
-}
-.check{
-padding-right: 1rem;
-display: inline-block;
-vertical-align: middle;
 
+.Hour {
+  font-size: 0.9rem;
 }
-.popular{
- margin-top: -1rem;
+
+.silver p,
+.gold p,
+.dimond p {
+  text-align: left;
+  padding-left: 2rem;
+  margin-left: 3rem;
+}
+
+.check {
+  margin-right: 0.8rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.popular {
+  margin-top: -1rem;
   background-color: #ffb400;
-  padding:  0.5rem 0;
+  padding: 0.5rem 0;
   font-weight: 400;
 }
-.gold{
-  text-align: center;
-   /* Rectangle 58 */
 
-position: absolute;
-width: 310px;
-height: 609px;
-left: 30.5rem;
-top: 1512px;
-margin-top: -104rem;
-/* White */
-background: #FFFFFF; 
+.gold {
+  text-align: center;
+  position: absolute;
+  width: 310px;
+  height: 609px;
+  left: 30.5rem;
+  top: 1512px;
+  margin-top: -104rem;
+  background: #ffffff;
 }
-.h2-gold{
+
+.h2-gold {
   margin-top: -2.5rem;
 }
-.yellow-btn{
+
+.yellow-btn {
   background-color: #ffb400;
-border-radius: 20px;
-height: 35px;
-width: 10rem;
-font-weight: 600;
-}
-.white-btn2{
- background-color: white;
   border-radius: 20px;
-height: 35px;
-width: 10rem;
-font-weight: 600;
+  height: 35px;
+  width: 10rem;
+  font-weight: 600;
 }
+
+.white-btn2 {
+  background-color: white;
+  border-radius: 20px;
+  height: 35px;
+  width: 10rem;
+  font-weight: 600;
+}
+
 .comments-title {
   text-align: center;
   font-size: 0.85rem;
   margin: 3rem auto 1rem;
   max-width: 1140px;
   padding: 0 1.5rem;
+  margin-top: 5rem;
 }
-.dimond{
-  text-align: center;
-  /* Rectangle 58 */
 
-position: absolute;
-width: 310px;
-height: 609px;
-left: 69.5rem;
-top: 1512px;
-margin-top: -16.5rem;
-/* White */
-background: #FFFFFF; 
+.dimond {
+  text-align: center;
+  position: absolute;
+  width: 310px;
+  height: 609px;
+  left: 69.5rem;
+  top: 1512px;
+  margin-top: -16.5rem;
+  background: #ffffff;
 }
 
 .comments-title h3 {
@@ -434,16 +439,45 @@ background: #FFFFFF;
   font-weight: 700;
   color: #2b2b2b;
   margin: 0 0 0.5rem;
+  margin-bottom: 30rem;
+}
+
+.comments-wrapper {
+  position: absolute;
+  left: 323px;
+  margin-left: -3rem;
+  top: 140rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .comments {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
+  padding-top: 2rem;
+  width: 310px;
+  height: 323px;
+  background-color: white;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.comments h4 {
+  color: black;
+  margin-left: 7rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: -5rem;
+}
+
+.comments h5 {
+  color: #767676;
+  margin-left: 6.7rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.comments-title p {
+  color: #767676;
+  transform: translateY(-29rem);
 }
 
 .Education,
@@ -585,10 +619,6 @@ background: #FFFFFF;
     padding: 2.25rem 1.5rem;
   }
 
-
-
-  
-
   .Figma,
   .Figma1,
   .Figma2,
@@ -691,8 +721,6 @@ background: #FFFFFF;
   animation: spin-reverse 0.95s linear infinite;
 }
 
-
-
 .shape-circle {
   position: absolute;
   width: 25px;
@@ -714,9 +742,11 @@ background: #FFFFFF;
   border-radius: 50%;
   animation: spin-slow 3s linear infinite;
 }
-.highlight{
+
+.highlight {
   color: #ffb400;
 }
+
 .flash {
   position: absolute;
   right: 23.5rem;
