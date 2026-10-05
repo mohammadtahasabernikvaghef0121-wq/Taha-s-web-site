@@ -25,6 +25,10 @@ a {
   text-decoration: none;
   color: #000;
 }
+p{
+  color: #767676;
+
+}
 
 li {
   list-style: none;
@@ -299,7 +303,7 @@ li {
 .flash {
   position: absolute;
   right: 23.5rem;
-  margin-top: -9.4rem;
+  margin-top: -6.4rem;
 }
 
 .price-title {
@@ -492,18 +496,14 @@ margin-bottom: -0.3rem;
   color: black;
   z-index: 999999;
 }
-
 .Education {
-  position: absolute;
-  width: 904px;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 163rem;
+  width: 100%;
+  max-width: 904px;
+  margin: 4rem auto;
   text-align: center;
-  margin: 0;
-  padding: 0;
-
+  padding: 0 1.5rem;
 }
+
 
 .Education h3 {
   font-size: 2rem;
@@ -531,6 +531,18 @@ margin-bottom: -0.3rem;
   
   box-sizing: border-box;
   
+}
+.white2 {
+  background-color: #ffffff;
+  width: 79%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding: 2.5rem 2rem;
+  
+  box-sizing: border-box;
+margin-left: 8rem;
 }
 
 .white:last-child {
@@ -573,13 +585,18 @@ margin-bottom: -0.3rem;
   margin: 0;
   text-transform: capitalize;
 }
+.portfolio .categories{
+font-size: 1rem;
+word-spacing: 10px;
+font-weight: 500;
+padding-bottom: 1rem;
+margin-top: 2rem;
 
-.work-history {
-  position: relative;
-  top: 50rem;
-  margin-bottom: 0;
 }
-
+.color-categories{
+  color: #ffb400;
+  
+}
 .work-history,
 .portfolio,
 .blog,
@@ -599,14 +616,74 @@ margin-bottom: -0.3rem;
   color: #2b2b2b;
   margin: 0 0 0.5rem;
 }
+.work-history {
+  position: relative !important;
+  top: -3rem !important;
+  padding-bottom: 50rem !important;
+}
+
+.work-history h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2b2b2b;
+  margin: 0 0 0.5rem;
+}
+
+
 
 .blog-items {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+  font-size: 1rem;
+
+}
+.blog-items p{
+  color: #767676;
 }
 
+.color-blog{
+  color: #ffb400;
+
+}
+
+.flash2{
+ margin-left: 4.6rem;
+ margin-top: -1.3rem;
+}
+.card-blog{
+  width: 25%;
+  margin-left: -50rem;
+  margin-top: 6rem;
+  background-color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.card-blog2{
+  width: 25%;
+
+  margin-left: -0rem;
+  margin-top: -26.8rem;
+  background-color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+  padding-top: 1rem;
+}
+.card-blog3{
+  width: 25%;
+  margin-left: 50rem;
+  margin-top: -26.8rem;
+  background-color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+  padding-top: 1rem;
+}
 .info h3 {
   color: #2b2b2b;
   font-size: 2rem;
