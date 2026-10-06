@@ -2068,12 +2068,424 @@ li {
     font-size: 13px;
   }
 }
+@media (max-width: 480px) {
 
-/* =========================================================
-   VERY SMALL PHONES
-========================================================= */
+  
+
+  html {
+    font-size: 14px;
+  }
+  .flash {
+    position: absolute;
+  
+    right: 10rem;
+  
+    margin-top: -3.6rem;
+  }
+  .navbar {
+    top: 10px;
+    padding: 0.5rem 0.8rem;
+    max-width: calc(100% - 1rem);
+  }
+
+  .navbar ul {
+    gap: 0.6rem;
+  }
+
+  .navbar li {
+    font-size: 0.75rem;
+  }
+
+  .header-title {
+    padding: 4.5rem 1rem 2rem;
+  }
+
+  .header-title h1 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .header-title p {
+    font-size: 0.85rem;
+  }
+
+  .header-img2 {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+
+  .button-header {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .services,
+  .price-title,
+  .price-plan,
+  .comments-title,
+  .comments-wrapper,
+  .Education,
+  .work-history,
+  .portfolio,
+  .blog,
+  .info {
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .services h2,
+  .price-title h3,
+  .comments-title h3,
+  .Education h3,
+  .work-history h3,
+  .portfolio h3,
+  .blog h3,
+  .info h3 {
+    font-size: 1.5rem;
+  }
+
+  .services p,
+  .price-title p,
+  .Education > p,
+  .portfolio > p,
+  .blog > p {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card {
+    padding: 1.5rem 1rem;
+    min-height: auto;
+  }
+
+  .silver,
+  .gold,
+  .dimond {
+    padding: 1.5rem 1rem;
+  }
+
+  .silver p,
+  .gold p,
+  .dimond p {
+    padding-left: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .yellow-btn,
+  .white-btn2 {
+    width: 100%;
+    height: 36px;
+  }
+
+  .popular {
+    margin: -1.5rem -1rem 1rem;
+  }
+
+  .comments {
+    padding: 1.25rem 1rem;
+  }
+
+  .white,
+  .white2 {
+    padding: 1.25rem 1rem;
+    gap: 10px;
+  }
+
+  .title-1,
+  .title-2 {
+    font-size: 1rem;
+  }
+
+  .title-3,
+  .title-4 {
+    font-size: 0.85rem;
+  }
+
+  .portfolio .categories {
+    font-size: 0.85rem;
+    word-spacing: 4px;
+  }
+
+  .card-blog,
+  .card-blog2,
+  .card-blog3 {
+    padding: 0.75rem;
+  }
+
+  .contact-form {
+    padding: 1rem;
+  }
+
+  .contact-form label {
+    font-size: 13px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  .contact-form textarea {
+    height: 120px;
+  }
+
+  .info-card {
+    padding: 15px;
+  }
+
+  .title-form {
+    font-size: 13px;
+  }
+
+  .text-form {
+    font-size: 13px;
+  }
+
+  .footer {
+    font-size: 0.75rem;
+    padding: 1rem 0;
+  }
+
+}
+
+
+@media (max-width: 412px) {
+  html {
+    font-size: 14px;
+  }
+
+  .navbar {
+    top: 8px;
+    padding: 0.4rem 0.6rem;
+    max-width: calc(100% - 0.8rem);
+  }
+
+  .navbar ul {
+    gap: 0.5rem;
+  }
+
+  .navbar li {
+    font-size: 0.7rem;
+  }
+
+  .header-title {
+    padding: 4.5rem 0.8rem 2rem;
+  }
+
+  .header-title h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .header-title p {
+    font-size: 0.85rem;
+  }
+
+  .header-img2 {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 1rem;
+  }
+
+  .button-header {
+    width: 100%;
+    padding: 0.65rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .services,
+  .price-title,
+  .price-plan,
+  .comments-title,
+  .comments-wrapper,
+  .Education,
+  .work-history,
+  .portfolio,
+  .blog,
+  .info {
+    padding: 0 0.8rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .services h2,
+  .price-title h3,
+  .comments-title h3,
+  .Education h3,
+  .work-history h3,
+  .portfolio h3,
+  .blog h3,
+  .info h3 {
+    font-size: 1.35rem;
+  }
+
+  .services p,
+  .price-title p,
+  .Education > p,
+  .portfolio > p,
+  .blog > p {
+    font-size: 0.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .card {
+    padding: 1.25rem 0.8rem;
+    min-height: auto;
+  }
+
+  .silver,
+  .gold,
+  .dimond {
+    padding: 1.25rem 0.8rem;
+  }
+
+  .silver p,
+  .gold p,
+  .dimond p {
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .yellow-btn,
+  .white-btn2 {
+    width: 100%;
+    height: 35px;
+  }
+
+  .popular {
+    margin: -1.25rem -0.8rem 1rem;
+  }
+
+  .comments {
+    padding: 1rem 0.8rem;
+  }
+
+  .white,
+  .white2 {
+    padding: 1rem 0.8rem;
+    gap: 8px;
+  }
+
+  .title-1,
+  .title-2 {
+    font-size: 0.95rem;
+  }
+
+  .title-3,
+  .title-4 {
+    font-size: 0.8rem;
+  }
+
+  .portfolio .categories {
+    font-size: 0.8rem;
+    word-spacing: 3px;
+  }
+
+  .card-blog,
+  .card-blog2,
+  .card-blog3 {
+    padding: 0.6rem;
+  }
+
+  
+  .info-card {
+    padding: 12px;
+  }
+
+  .title-form {
+    font-size: 12px;
+  }
+
+  .text-form {
+    font-size: 12px;
+  }
+
+  .footer {
+    font-size: 0.75rem;
+    padding: 1rem 0;
+  }
+  .dimond {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    margin: 0;
+    padding: 2.5rem 1.5rem;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 1.5rem !important;
+  }
+  .blog-items {
+    display: inline-block;
+    font-size: 1rem;
+    justify-content: center;
+  
+    gap: 25px;
+  
+    width: 90%;
+    margin-left: -9rem;
+  }
+  .contact-form {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 1rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    box-sizing: border-box !important;
+  }
+
+  .contact-form label {
+    display: block;
+    width: 100%;
+    margin: 0 0 8px 0 !important;
+    margin-left: 0 !important;
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 12px 0 !important;
+    margin-left: 0 !important;
+    padding: 10px !important;
+    font-size: 13px;
+    box-sizing: border-box !important;
+  }
+
+  .contact-form textarea {
+    height: 120px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    resize: none;
+  }
+
+  .contact-form button,
+  .send-btn {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 5px!important;
+    
+    font-size: 13px;
+    text-align: center;
+    box-sizing: border-box !important;
+  }}
 
 @media (max-width: 380px) {
+ 
   .navbar {
     padding: 9px 12px;
   }
