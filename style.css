@@ -1650,6 +1650,7 @@ li {
     font-size: 14px;
 
     line-height: 1.8;
+   
   }
 
   .comments-wrapper {
@@ -1709,13 +1710,14 @@ li {
   }
 
   .comments h4 {
-    margin-left: 75px;
+    margin-left: 6.3rem;
 
     margin-top: -55px;
   }
 
   .comments h5 {
-    margin-left: 75px;
+    margin-left: 6.3rem;
+
   }
 
   /* =====================================================
@@ -2080,7 +2082,7 @@ li {
   
     right: 10rem;
   
-    margin-top: -3.6rem;
+    margin-top: -5.4rem;
   }
   .navbar {
     top: 10px;
@@ -2361,6 +2363,7 @@ li {
 
   .comments {
     padding: 1rem 0.8rem;
+    
   }
 
   .white,
@@ -2389,6 +2392,18 @@ li {
   .card-blog3 {
     padding: 0.6rem;
   }
+
+  .price-title {
+    width: 100%;
+
+    margin: 0 auto 30px;
+
+    padding: 0 20px;
+    margin-top: 2rem;
+  }
+
+
+
 
   
   .info-card {
@@ -2523,6 +2538,7 @@ li {
   .info {
     padding-left: 15px;
     padding-right: 15px;
+    
   }
 
   .silver,
