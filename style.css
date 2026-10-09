@@ -1,8 +1,3 @@
-/* =========================================================
-   Taha-Dev.com
-   Original design preserved + mobile scroll fix
-========================================================= */
-
 * {
   box-sizing: border-box;
 }
@@ -43,57 +38,6 @@ p {
 li {
   list-style: none;
 }
-
-/* =========================================================
-   NAVBAR
-========================================================= */
-
-.navbar {
-  position: fixed;
-  z-index: 9999;
-  top: 15px;
-  left: 50%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: max-content;
-  max-width: calc(100% - 1.5rem);
-
-  padding: 0.8rem 1rem;
-
-  transform: translateX(-50%);
-
-  border-radius: 10rem;
-
-  background-color: rgba(0, 0, 0, 0.9);
-  color: #fff;
-}
-
-.navbar ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  gap: 1rem;
-
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li {
-  font-size: 0.9rem;
-  white-space: nowrap;
-}
-
-.navbar li a {
-  color: #fff;
-}
-
-/* =========================================================
-   PROFILE
-========================================================= */
 
 .profile-img {
   width: 70px;
@@ -183,24 +127,12 @@ li {
   letter-spacing: 0.5px;
 }
 
-/* =========================================================
-   MAIN CONTAINER
-========================================================= */
-
 .container {
   width: 100%;
-  max-width: 100%;
-
-  margin: 0;
-  padding: 0;
-
+  box-sizing: border-box;
+  padding: 0 20rem;
   background-color: #f0f2f5;
 }
-
-/* =========================================================
-   HEADER
-   بزرگ نگه داشته شده
-========================================================= */
 
 .header-title {
   position: relative;
@@ -402,10 +334,6 @@ li {
   animation: spin-slow 3s linear infinite;
 }
 
-/* =========================================================
-   SERVICES
-========================================================= */
-
 .services {
   max-width: 1140px;
 
@@ -441,7 +369,7 @@ li {
 
   grid-template-columns: repeat(3, 1fr);
 
-  gap: 1.5rem;
+  gap: 1rem;
 
   width: 100%;
 
@@ -452,19 +380,12 @@ li {
 
 .card {
   position: relative;
-
   width: 100%;
   min-height: 220px;
-
-  margin: 0;
-
-  padding: 2.25rem 1.5rem;
-
+  padding: 1rem 3rem;
   background-color: #fff;
-
   text-align: center;
-
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+  box-sizing: border-box;
 }
 
 .card img {
@@ -520,18 +441,6 @@ li {
 
   letter-spacing: 0.5px;
 }
-
-.flash {
-  position: absolute;
-
-  right: 14.5rem;
-
-  margin-top: -6.5rem;
-}
-
-/* =========================================================
-   PRICE
-========================================================= */
 
 .price-title {
   max-width: 1140px;
@@ -640,7 +549,7 @@ li {
   width: 310px;
   height: 609px;
 
-  left: 50%;
+  left: 36rem;
   top: 0;
 
   transform: translateX(-50%);
@@ -694,17 +603,14 @@ li {
   width: 310px;
   height: 609px;
 
-  right: 8rem;
-  top: 93rem;
+  right: 20rem;
+  top: 90.5rem;
 
   background: #fff;
- 
 }
 .dimond h2 {
   margin-top: 3.9rem;
 }
-
-
 
 .comments-title {
   position: relative;
@@ -716,7 +622,6 @@ li {
   padding: 0 1.5rem;
 
   text-align: center;
-
 }
 
 .comments-title h3 {
@@ -744,17 +649,15 @@ li {
 
   margin: 0 auto 5rem;
 
-  padding: 0 1.5rem;
+  padding: 0 -2rem;
 
   display: flex;
 
   justify-content: center;
 
-  gap: 2rem;
-
   overflow: visible;
 
- 
+  gap: 2rem;
 }
 
 .comments {
@@ -774,7 +677,6 @@ li {
   background-color: #fff;
 
   text-align: left;
-  
 }
 
 .comments h2 {
@@ -811,17 +713,13 @@ li {
   margin-bottom: -0.3rem;
 }
 
-/* =========================================================
-   EDUCATION
-========================================================= */
-
 .Education {
   width: 100%;
-  max-width: 904px;
+  max-width: 90rem;
 
-  margin: 0 auto 6rem;
+  margin: 0 auto 2rem;
 
-  padding: 0 1.5rem;
+  padding: 0 -3rem;
 
   text-align: center;
 }
@@ -913,19 +811,11 @@ li {
   text-transform: capitalize;
 }
 
-/* =========================================================
-   WORK HISTORY
-========================================================= */
-
 .work-history {
   width: 100%;
-  max-width: 1140px;
+  max-width: 90rem;
 
-  margin: 0 auto 6rem;
-
-  padding: 0 1.5rem;
-
-  font-size: 0.85rem;
+  margin: 0 auto 2rem;
 
   text-align: center;
 }
@@ -946,7 +836,7 @@ li {
 }
 
 .white2 {
-  width: 79%;
+  width: 100%;
 
   display: flex;
 
@@ -965,21 +855,18 @@ li {
   background-color: #fff;
 }
 
-/* =========================================================
-   PORTFOLIO
-========================================================= */
-
 .portfolio {
   width: 100%;
   max-width: 1140px;
 
   margin: 0 auto 6rem;
 
-  padding: 0 1.5rem;
+  padding: 0 -2rem;
 
   font-size: 0.85rem;
 
   text-align: center;
+  gap: 1.5rem;
 }
 
 .portfolio h3 {
@@ -1011,59 +898,41 @@ li {
   color: #ffb400;
 }
 
-.categories-img img {
-  max-width: 100%;
-  height: auto;
+.categories-img {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
-
-/* =========================================================
-   BLOG
-========================================================= */
-
 .blog {
   width: 100%;
-  max-width: 1140px;
-
-  margin: 0 auto 6rem;
-
-  padding: 0 1.5rem;
-
-  font-size: 0.85rem;
-
-  text-align: center;
+  box-sizing: border-box;
 }
 
-.blog h3 {
-  margin: 0 0 0.75rem;
-
-  color: #2b2b2b;
-
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.blog > p {
-  color: #767676;
+.blog-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 2rem;
+  padding: 0;
 }
 
 .blog-items {
-  display: inline-block;
-  font-size: 1rem;
-  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-  gap: 25px;
-
-  width: 31%;
-
-  margin-top: 2rem;
-  vertical-align: top;
-  margin: 30px 1% 0;
+.blog-img img {
+  width: 100%;
+  display: block;
 }
 
 .card-blog,
 .card-blog2,
 .card-blog3 {
-  width: 80%;
+  width: 100%;
 
   margin: 0;
 
@@ -1073,6 +942,7 @@ li {
 
   text-align: left;
   left: 5rem;
+  padding: 2;
 }
 
 .blog-img img {
@@ -1082,6 +952,7 @@ li {
 }
 
 .blog-wrap {
+  width: 100%;
   color: #2b2b2b;
 }
 
@@ -1093,10 +964,6 @@ li {
   margin-left: 4.6rem;
   margin-top: -1.3rem;
 }
-
-/* =========================================================
-   CONTACT
-========================================================= */
 
 .info {
   width: 100%;
@@ -1118,6 +985,7 @@ li {
 
   font-size: 32px;
   font-weight: 700;
+  margin-left: -50rem;
 }
 
 .info-images {
@@ -1131,11 +999,12 @@ li {
 }
 
 .contact-form {
-  width: 100%;
+  width: 80%;
 
   padding: 30px;
 
   background-color: #fff;
+  margin-left: 5rem;
 }
 
 .contact-form form {
@@ -1208,13 +1077,17 @@ li {
 }
 
 .info-card {
-  width: 100%;
+  width: 85%;
 
   min-height: 170px;
 
   padding: 25px 20px;
 
   background-color: #fff;
+
+  margin-left: 8rem;
+  margin-top: -1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .icon {
@@ -1240,7 +1113,11 @@ li {
 
   color: #767676;
 }
-
+.contact-info h3 {
+  font-size: 2rem;
+  margin-top: -1rem;
+  margin-left: 8rem;
+}
 .text-form {
   margin-left: auto;
 
@@ -1274,10 +1151,6 @@ li {
 
   margin-bottom: -5rem;
 }
-
-/* =========================================================
-   ANIMATIONS
-========================================================= */
 
 @keyframes spin {
   from {
@@ -1329,26 +1202,6 @@ li {
     width: 100%;
     overflow-x: hidden !important;
   }
-
-  /* NAVBAR */
-
-  .navbar {
-    top: 10px;
-
-    max-width: calc(100% - 20px);
-
-    padding: 10px 15px;
-  }
-
-  .navbar ul {
-    gap: 14px;
-  }
-
-  .navbar li {
-    font-size: 12px;
-  }
-
-  /* HEADER */
 
   .header-title {
     width: 100%;
@@ -1478,8 +1331,6 @@ li {
     padding: 30px 20px;
   }
 
-
-
   .price-title {
     width: 100%;
 
@@ -1522,31 +1373,30 @@ li {
 
     transform: none !important;
   }
-  .silver{
+  .silver {
     position: relative !important;
 
     left: auto !important;
     right: auto !important;
     top: auto !important;
-  
+
     transform: none !important;
-  
+
     width: 100%;
-  
+
     max-width: 350px;
-  
+
     height: auto !important;
-  
+
     min-height: 560px;
-  
+
     margin: 0 !important;
-  
+
     padding: 25px 15px;
     margin-top: -40rem !important;
     margin-left: 10rem;
- 
   }
-  
+
   .gold {
     position: relative !important;
 
@@ -1568,33 +1418,30 @@ li {
 
     padding: 25px 15px;
     margin-top: 0.5rem !important;
-    
-   
   }
-.dimond{
-  position: relative !important;
+  .dimond {
+    position: relative !important;
 
-  left: auto !important;
-  right: auto !important;
-  top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
 
-  transform: none !important;
+    transform: none !important;
 
-  width: 100%;
+    width: 100%;
 
-  max-width: 350px;
+    max-width: 350px;
 
-  height: auto !important;
+    height: auto !important;
 
-  min-height: 560px;
+    min-height: 560px;
 
-  margin: 0 !important;
+    margin: 0 !important;
 
-  padding: 25px 15px;
-  margin-top: -2.5rem !important;
-  margin-right: 9.5rem !important;
-
-}
+    padding: 25px 15px;
+    margin-top: -2.5rem !important;
+    margin-right: 9.5rem !important;
+  }
   .silver p,
   .gold p,
   .dimond p {
@@ -1613,13 +1460,11 @@ li {
   .h2-gold {
     margin-top: 15px;
   }
-  .dimond{
+  .dimond {
     position: absolute !important;
-  left: auto !important;
-  right: 0 !important;
-  transform: none !important;
-
-
+    left: auto !important;
+    right: 0 !important;
+    transform: none !important;
   }
   .comments-title {
     position: relative !important;
@@ -1650,7 +1495,6 @@ li {
     font-size: 14px;
 
     line-height: 1.8;
-   
   }
 
   .comments-wrapper {
@@ -1681,8 +1525,6 @@ li {
     overflow: visible !important;
 
     transform: none !important;
-
-    
   }
 
   .comments {
@@ -1705,8 +1547,6 @@ li {
     transform: none !important;
 
     overflow: visible !important;
-
-
   }
 
   .comments h4 {
@@ -1717,7 +1557,6 @@ li {
 
   .comments h5 {
     margin-left: 6.3rem;
-
   }
 
   /* =====================================================
@@ -1909,8 +1748,6 @@ li {
     gap: 20px;
 
     width: 100%;
-
-   
   }
 
   .card-blog,
@@ -1928,10 +1765,6 @@ li {
     margin-right: 12rem !important;
   }
 
-  /* =====================================================
-     CONTACT
-  ===================================================== */
-
   .info {
     position: relative !important;
 
@@ -1944,8 +1777,6 @@ li {
     padding: 0 20px;
 
     text-align: center;
-
-    
   }
 
   .info h3 {
@@ -1977,17 +1808,15 @@ li {
 
     padding-left: 20rem !important;
     padding-right: 19rem !important;
-
   }
 
   .contact-form label {
     font-size: 14px;
-    margin-left: -15rem; 
+    margin-left: -15rem;
   }
 
   .contact-form input,
   .contact-form textarea {
-    
     width: 30rem !important;
     font-size: 14px;
     margin-left: -15rem;
@@ -2004,20 +1833,18 @@ li {
     padding: 10px 70px;
     margin-left: -30rem;
     margin-bottom: -10rem;
-   
-   margin-left: -15rem;
-   
-  
+
+    margin-left: -15rem;
   }
-  .send-btn{
+  .send-btn {
     margin-left: -1.5rem;
     flex-direction: nowrap;
   }
   .flash {
     position: absolute;
-  
+
     right: 18.4rem;
-  
+
     margin-top: -4.4rem;
   }
   .contact-info {
@@ -2071,31 +1898,15 @@ li {
   }
 }
 @media (max-width: 480px) {
-
-  
-
   html {
     font-size: 14px;
   }
   .flash {
     position: absolute;
-  
+
     right: 10rem;
-  
+
     margin-top: -5.4rem;
-  }
-  .navbar {
-    top: 10px;
-    padding: 0.5rem 0.8rem;
-    max-width: calc(100% - 1rem);
-  }
-
-  .navbar ul {
-    gap: 0.6rem;
-  }
-
-  .navbar li {
-    font-size: 0.75rem;
   }
 
   .header-title {
@@ -2251,27 +2062,11 @@ li {
     font-size: 0.75rem;
     padding: 1rem 0;
   }
-
 }
-
 
 @media (max-width: 412px) {
   html {
     font-size: 14px;
-  }
-
-  .navbar {
-    top: 8px;
-    padding: 0.4rem 0.6rem;
-    max-width: calc(100% - 0.8rem);
-  }
-
-  .navbar ul {
-    gap: 0.5rem;
-  }
-
-  .navbar li {
-    font-size: 0.7rem;
   }
 
   .header-title {
@@ -2363,7 +2158,6 @@ li {
 
   .comments {
     padding: 1rem 0.8rem;
-    
   }
 
   .white,
@@ -2402,10 +2196,6 @@ li {
     margin-top: 2rem;
   }
 
-
-
-
-  
   .info-card {
     padding: 12px;
   }
@@ -2439,9 +2229,9 @@ li {
     display: inline-block;
     font-size: 1rem;
     justify-content: center;
-  
+
     gap: 25px;
-  
+
     width: 90%;
     margin-left: -9rem;
   }
@@ -2492,27 +2282,15 @@ li {
     margin: 0 !important;
     margin-left: 0 !important;
     margin-bottom: 0 !important;
-    padding: 5px!important;
-    
+    padding: 5px !important;
+
     font-size: 13px;
     text-align: center;
     box-sizing: border-box !important;
-  }}
+  }
+}
 
 @media (max-width: 380px) {
- 
-  .navbar {
-    padding: 9px 12px;
-  }
-
-  .navbar ul {
-    gap: 11px;
-  }
-
-  .navbar li {
-    font-size: 11px;
-  }
-
   .header-title {
     padding-left: 15px;
     padding-right: 15px;
@@ -2538,7 +2316,6 @@ li {
   .info {
     padding-left: 15px;
     padding-right: 15px;
-    
   }
 
   .silver,
