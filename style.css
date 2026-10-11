@@ -23,7 +23,9 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  z-index: 999999;
+ margin-bottom: 3rem;
+ border-radius: 20rem;
+
 }
 
 a {
