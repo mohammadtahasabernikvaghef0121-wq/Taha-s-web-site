@@ -25,7 +25,7 @@ img {
   height: auto;
  margin-bottom: 3rem;
  border-radius: 20rem;
-
+z-index: 1000;
 }
 
 a {
