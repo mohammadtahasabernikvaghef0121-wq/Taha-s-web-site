@@ -118,8 +118,8 @@ li {
   background-color: #f0f2f5;
   position: relative;
 }
-.bg-white{
-background: white;
+.bg-white {
+  background: white;
 }
 .header {
   position: relative;
@@ -474,7 +474,7 @@ background: white;
   position: relative;
   width: 310px;
   height: 609px;
-  right: -48rem;
+  right: -47rem;
   top: -1.5rem;
   background: #fff;
   padding-top: 0.7rem;
@@ -522,7 +522,7 @@ background: white;
   position: relative;
   flex: 1 1 0;
   width: 310px;
-  max-width: 310px;
+
   height: 323px;
   padding: 2rem 1.5rem;
   margin: 0;
@@ -777,21 +777,34 @@ background: white;
   width: 100%;
   margin: 0;
 }
-
-.contact-form {
-  flex: 0 0 58%;
-  width: 58%;
-  max-width: 58%;
-  margin: 0;
-  padding: 30px;
-  background-color: #fff;
-  box-sizing: border-box;
+.information-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-left: 1.5rem;
 }
 
-.contact-form form {
+.info form {
+  display: block;
   text-align: left;
+  width: 100%;
+  background-color: white;
+  padding-top: 1rem;
+  padding-right: 2.5rem;
 }
 
+.info {
+  width: 100%;
+  background-color: white !important;
+  margin-top: 1.6rem;
+  padding-bottom: 1rem;
+}
+
+.text-h3 {
+  margin-bottom: -3rem;
+  font-size: 1.7rem;
+  margin-left: 1rem;
+}
 .contact-form label {
   display: block;
   margin-bottom: 10px;
@@ -815,6 +828,7 @@ background: white;
 .contact-form textarea {
   resize: none;
   height: 200px;
+  padding-right: 45rem;
 }
 
 .contact-form button {
@@ -828,32 +842,24 @@ background: white;
   cursor: pointer;
 }
 
-.contact-info {
-  flex: 0 0 38%;
-  width: 38%;
-  max-width: 38%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .contact-info h3 {
   margin: 0 0 10px 0;
   text-align: left;
-  transform: translate(65rem, -55.5rem);
+  font-size: 1.9rem;
+  margin-top: -1.8rem;
+  margin-left: 4rem;
 }
 
 .info-card {
-  width: 70%;
   max-width: 100%;
-  height: 29vh;
   min-height: 170px;
   padding: 25px 20px;
   background-color: #fff;
-  margin: 0;
   box-sizing: border-box;
-  transform: translate(65rem, -55.5rem);
+  margin: 10px 0;
+  height: 28.5vh;
+  width: 375px;
+  margin-left: 4rem;
 }
 
 .icon {
@@ -862,6 +868,7 @@ background: white;
   border-radius: 5rem;
   padding: 0.5rem;
   display: inline-block;
+  margin-left: 11rem;
 }
 
 .title-form {
@@ -978,8 +985,15 @@ background: white;
     max-width: 290px;
     right: 2rem;
   }
-  .Figma, .Figma1, .Figma2, .Figma3, .Figma4, .Figma5,
-  .shape-circle, .shape-circle-small, .shape-triangle {
+  .Figma,
+  .Figma1,
+  .Figma2,
+  .Figma3,
+  .Figma4,
+  .Figma5,
+  .shape-circle,
+  .shape-circle-small,
+  .shape-triangle {
     opacity: 0.7;
   }
 }
@@ -1008,8 +1022,7 @@ background: white;
     margin-left: auto;
     margin-right: auto;
   }
-  .contact-wrapper,
-  .info-images {
+  .contact-wrapper {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -1038,7 +1051,9 @@ background: white;
     justify-content: center;
     gap: 2rem;
   }
-  .silver, .gold, .dimond {
+  .silver,
+  .gold,
+  .dimond {
     position: static;
     transform: none;
     margin: 0 auto;
@@ -1113,7 +1128,11 @@ background: white;
     object-fit: cover;
     border: 3px solid #ffb400;
   }
-  .Figma, .Figma1, .Figma3, .Figma4, .shape-triangle {
+  .Figma,
+  .Figma1,
+  .Figma3,
+  .Figma4,
+  .shape-triangle {
     display: none;
   }
   .Figma2 {
@@ -1134,11 +1153,14 @@ background: white;
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  .card-blog, .card-blog2, .card-blog3 {
+  .card-blog,
+  .card-blog2,
+  .card-blog3 {
     width: 100%;
     max-width: 360px;
   }
-  .white, .white2 {
+  .white,
+  .white2 {
     flex-direction: column;
     gap: 1.5rem;
     padding: 2rem 1.5rem;
@@ -1174,7 +1196,10 @@ background: white;
   .categories-img {
     grid-template-columns: 1fr;
   }
-  .silver, .gold, .dimond, .comments {
+  .silver,
+  .gold,
+  .dimond,
+  .comments {
     width: 100%;
     max-width: 320px;
   }
