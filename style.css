@@ -130,7 +130,6 @@ body {
   margin-right: auto;
 }
 
-
 .bg-white {
   background: white;
   width: 100%;
@@ -448,7 +447,7 @@ body {
   position: absolute;
   width: 310px;
   height: 609px;
-  left: 40rem;
+  left: 42rem;
   top: 0;
   transform: translateX(-50%);
   background: #fff;
@@ -489,7 +488,7 @@ body {
   position: relative;
   width: 310px;
   height: 609px;
-  right: -56.5rem;
+  right: -63.5rem;
   top: -1.5rem;
   background: #fff;
   padding-top: 0.7rem;
@@ -1046,5 +1045,11 @@ body {
   }
   .contact-form {
     padding: 1rem 0;
+  }
+  .silver {
+    margin-top: -40rem;
+  }
+  .dimond {
+    margin-top: 2rem;
   }
 }
